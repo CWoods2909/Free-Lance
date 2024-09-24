@@ -17,3 +17,7 @@ Testing - Jest - [Jest Docs](https://jestjs.io/)
 ---
 
 ### 9/23/2024
+
+Yooboo and I fleshed out some ideas and worked on the project page.
+
+### 9/24/2024
