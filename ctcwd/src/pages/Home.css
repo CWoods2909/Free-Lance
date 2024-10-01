@@ -9,7 +9,7 @@
   padding-left: 5%;
 }
 #company-name {
-  font-size: xx-large;
+  font-size: 3em;
 }
 #button-container {
   border-radius: 30px;
@@ -19,12 +19,27 @@
   justify-content: space-around;
   width: 75%;
 }
-#button-container > button
+#button-container a
  {
   font-size: large;
   color: white;
+  text-decoration: none;
  }
 
+ #button-container a:hover{
+  color: rgb(110, 202, 238);
+ }
+
+ #work-with-us > a{
+  font-size: large;
+  color: white;
+  text-decoration: none;
+ }
+
+ #work-with-us > a:hover{
+  color: rgb(110, 202, 238);
+ }
+ 
  #right-column-components {
   width: 40%;
   display: flex;
@@ -32,8 +47,6 @@
 }
 
 #right-column-components > button {
-  font-size: x-large;
-  color: white;
   justify-content: right;
   padding-top: 2%;
   padding-right: 10%;

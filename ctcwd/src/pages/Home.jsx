@@ -1,7 +1,7 @@
 import * as React from 'react';
 import Button from '@mui/material/Button';
 import './Home.css';
-
+import { Link } from 'react-router-dom';
 export default function Home() {
     return (
       <>
@@ -13,8 +13,8 @@ export default function Home() {
           </div>
 
           <div id="button-container">
-          <Button variant="text">Meet the Team</Button>
-          <Button variant="text">Portfolio</Button>
+          <Button variant="text"><Link to="/about">Meet the team</Link></Button>
+          <Button variant="text"><Link to="/portfolio">Portfolio</Link></Button>
           </div>
         </div>
 
@@ -22,7 +22,7 @@ export default function Home() {
           <div id="group-image">
             <img src="/images/groupPhoto.png" alt="group working" style={{height: "100%", width:"100%", paddingRight: "5%" }}/>
           </div>
-          <Button variant="text">Work with us</Button>
+          <Button variant="text" id='work-with-us'><Link to="/contact">Work with us</Link></Button>
         </div>
       </div>
       </>
