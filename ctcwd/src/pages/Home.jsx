@@ -20,7 +20,7 @@ export default function Home() {
 
         <div id="right-column-components">
           <div id="group-image">
-            <img src="/images/groupPhoto.png" alt="group working" style={{height: "60vh", paddingRight: "5%" }}/>
+            <img src="/images/groupPhoto.png" alt="group working" style={{height: "100%", width:"100%", paddingRight: "5%" }}/>
           </div>
           <Button variant="text">Work with us</Button>
         </div>
