@@ -8,7 +8,7 @@ export default function ProjectCards () {
             </div>
 
             <div>
-                <i style={{color: "white"}} class="fa-thin fa-turn-down-right"></i>
+                {/* We need an arrow icon here */}
                 <p>Project Name</p>
             </div>
         </div>
