@@ -1,6 +1,6 @@
 import * as React from 'react';
 import Button from '@mui/material/Button';
-import './Home.css';
+import '../styles/Home.css';
 import { Link } from 'react-router-dom';
 import SendOutlinedIcon from '@mui/icons-material/SendOutlined';
 

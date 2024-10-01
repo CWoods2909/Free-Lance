@@ -1,0 +1,31 @@
+#main-contact-container{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+#page-header p{
+    margin: 0;
+}
+
+#page-header{
+    font-size: 8em;
+    margin-bottom: 0;
+    width: 38%;
+}
+
+#contact-text{
+    font-size: 2em;
+    width: 37%;
+    margin-top: 2%;
+}
+
+hr{
+    width: 42%;
+}
+#contact-container{
+    display: flex;
+    justify-content: center;
+}
+

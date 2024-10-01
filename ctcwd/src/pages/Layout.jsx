@@ -2,6 +2,7 @@ import * as React from 'react';
 import Button from '@mui/material/Button';
 import Menu from '@mui/material/Menu';
 import MenuItem from '@mui/material/MenuItem';
+import KeyboardDoubleArrowDownIcon from '@mui/icons-material/KeyboardDoubleArrowDown';
 import {Outlet, Link} from "react-router-dom";
 
 export default function Layout() {
@@ -24,7 +25,7 @@ export default function Layout() {
         aria-expanded={open ? 'true' : undefined}
         onClick={handleClick}
         >
-        Dashboard
+        <KeyboardDoubleArrowDownIcon/>
       </Button>
       <Menu
         id="basic-menu"
