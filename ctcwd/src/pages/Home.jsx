@@ -2,6 +2,8 @@ import * as React from 'react';
 import Button from '@mui/material/Button';
 import './Home.css';
 import { Link } from 'react-router-dom';
+import SendOutlinedIcon from '@mui/icons-material/SendOutlined';
+
 export default function Home() {
     return (
       <>
@@ -22,7 +24,10 @@ export default function Home() {
           <div id="group-image">
             <img src="/images/groupPhoto.png" alt="group working" style={{height: "100%", width:"100%", paddingRight: "5%" }}/>
           </div>
-          <Button variant="text" id='work-with-us'><Link to="/contact">Work with us</Link></Button>
+          <Button variant="text" id='work-with-us'><Link to="/contact">
+          <SendOutlinedIcon />
+          Work with us
+          </Link></Button>
         </div>
       </div>
       </>

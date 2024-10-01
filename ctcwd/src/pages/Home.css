@@ -34,12 +34,15 @@
   font-size: large;
   color: white;
   text-decoration: none;
+  width: 40%;
+  display: flex;
+  justify-content: space-around;
  }
 
  #work-with-us > a:hover{
   color: rgb(110, 202, 238);
  }
- 
+
  #right-column-components {
   width: 40%;
   display: flex;
@@ -50,4 +53,5 @@
   justify-content: right;
   padding-top: 2%;
   padding-right: 10%;
+  
 }
