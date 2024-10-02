@@ -1,4 +1,4 @@
-import ProjectCards from '../components/projectCards';
+import PortfolioCard from '../components/PortfolioCard';
 import '../styles/Portfolio.css';
 
 export default function Portfolio() {
@@ -7,7 +7,7 @@ export default function Portfolio() {
         <div className='portfolio_header'>
           <h1>Portfolio</h1>
         </div>
-        <ProjectCards/>
+        <PortfolioCard/>
       </div>
     )
   }

@@ -1,0 +1,14 @@
+#aboutUsContainer{
+    height: 70vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+#about-us-header{
+    height: 10vh;
+    font-size: 3em;
+    display: flex;
+    margin-left: 4%;
+    align-items: center;
+}
