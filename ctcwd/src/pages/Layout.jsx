@@ -36,10 +36,10 @@ export default function Layout() {
           'aria-labelledby': 'basic-button',
         }}
       >
-        <MenuItem onClick={handleClose}><Link to="/">Home</Link></MenuItem>
-        <MenuItem onClick={handleClose}><Link to="/portfolio">Portfolio</Link></MenuItem>
-        <MenuItem onClick={handleClose}><Link to="/contact">Contact</Link></MenuItem>
-        <MenuItem onClick={handleClose}><Link to="/about">About Us</Link></MenuItem>
+        <MenuItem onClick={handleClose}><Link to="/" underline="none">Home</Link></MenuItem>
+        <MenuItem onClick={handleClose}><Link to="/portfolio" underline="none">Portfolio</Link></MenuItem>
+        <MenuItem onClick={handleClose}><Link to="/contact" underline="none">Contact</Link></MenuItem>
+        <MenuItem onClick={handleClose}><Link to="/about" underline="none">About Us</Link></MenuItem>
       </Menu>
     </div>
       <Outlet />
