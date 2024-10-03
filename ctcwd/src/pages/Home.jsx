@@ -1,7 +1,6 @@
 import * as React from 'react';
 import Button from '@mui/material/Button';
 import '../styles/Home.css';
-import { Link } from 'react-router-dom';
 import SendOutlinedIcon from '@mui/icons-material/SendOutlined';
 
 export default function Home() {
@@ -15,8 +14,8 @@ export default function Home() {
           </div>
 
           <div id="button-container">
-          <Button variant="text"><Link to="/about">Meet the team</Link></Button>
-          <Button variant="text"><Link to="/portfolio">Portfolio</Link></Button>
+          <Button variant="text"><a href="#aboutus">Meet the team</a></Button>
+          <Button variant="text"><a href="#portfolio">Portfolio</a></Button>
           </div>
         </div>
 
@@ -24,11 +23,16 @@ export default function Home() {
           <div id="group-image">
             <img src="/images/groupPhoto.png" alt="group working" style={{height: "100%", width:"100%", paddingRight: "5%" }}/>
           </div>
-          <Button variant="text" id='work-with-us'><Link to="/contact">
+          <Button variant="text" id='work-with-us'><a href="#contact">
           <SendOutlinedIcon />
           Work with us
-          </Link></Button>
+          </a></Button>
         </div>
+      </div>
+      <div className="bubble_logo">
+        <h1 className="arrow_down expand_menu">
+            <i className="fa-solid fa-angles-down"></i>
+        </h1>
       </div>
       </>
     )

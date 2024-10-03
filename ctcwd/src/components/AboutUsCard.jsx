@@ -14,13 +14,14 @@ export default function AboutUsCard({person}) {
     return (
         <Card sx={{ 
             maxWidth: 345 , 
+            maxHeight: 600,
             borderRadius: "10% 10% 0 0 ",
             transition: 'all 0.3s ease-in-out',
             '&:hover': {
                 transform: 'translateY(-5px)',
                 boxShadow: '0 4px 20px rgba(0,0,0,0.1)', }}}>
             <CardMedia
-                sx={{ height: 320, width: "100%" }}
+                sx={{ height: 300, width: "100%", objectFit: "stretch" }}
                 image={image} /><CardContent>
                     <Typography gutterBottom variant="h5" component="div">
                         {firstName + " " + lastName}

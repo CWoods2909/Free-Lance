@@ -4,6 +4,7 @@
   align-items: center;
   height: 100vh;
 }
+
 #left-column-components {
   width: 33%;
   padding-left: 5%;
@@ -54,4 +55,42 @@
   padding-top: 2%;
   padding-right: 10%;
   
+}
+
+.bubble_logo {
+  left: 45vw;
+  top: 90vh;
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  width: 6%;
+  padding: 10px;
+}
+
+.arrow_down {
+  font-size: 35px;
+  font-stretch: expanded;
+  color: white;
+  opacity: 22%;
+  animation: float 2.5s ease-in-out infinite;
+}
+
+.fa-angles-down {
+  text-shadow: 2px 2px 4px #000000c2;
+}
+
+@keyframes float {
+  0% {
+      transform: translatey(0px);
+  }
+
+  50% {
+      transform: translatey(-10px);
+  }
+
+  100% {
+      transform: translatey(0px);
+  }
 }
