@@ -10,9 +10,11 @@ export default function AboutUs() {
       </div>
       <div id="aboutUsContainer">
         {user.map(person => {
-          return <AboutUsCard person={person}/>
+          return <div className="about-us-card">
+            <AboutUsCard person={person}/>
+            </div>
         })}
-      </div>
+        </div>
       </>
     )
   }

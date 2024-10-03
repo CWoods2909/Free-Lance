@@ -5,28 +5,49 @@ import CardContent from "@mui/material/CardContent";
 import CardMedia from "@mui/material/CardMedia";
 import Button from "@mui/material/Button";
 import Typography from "@mui/material/Typography";
+import { Link } from "@mui/material";
+
 
 export default function AboutUsCard({person}) {
-    const {firstName, lastName, image, description} = person;
+    const {firstName, lastName, image, description, linkedinUrl, gitHubUrl} = person;
+
     return (
-        <Card sx={{ maxWidth: 345 }}>
+        <Card sx={{ 
+            maxWidth: 345 , 
+            borderRadius: "10% 10% 0 0 ",
+            transition: 'all 0.3s ease-in-out',
+            '&:hover': {
+                transform: 'translateY(-5px)',
+                boxShadow: '0 4px 20px rgba(0,0,0,0.1)', }}}>
             <CardMedia
-                sx={{ height: 240 }}
-                image={image}
+                sx={{ height: 320, width: "100%" }}
+                image={image} /><CardContent>
+                    <Typography gutterBottom variant="h5" component="div">
+                        {firstName + " " + lastName}
+                    </Typography>
+                    <Typography variant="body2" sx={{ color: "text.secondary" }}>
+                        {description}
+                    </Typography>
+                </CardContent>
+                <CardActions>
+                    <Link 
+                    href={linkedinUrl}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    underline="none"
+                >
+                    <Button size="small">LinkedIn</Button>
+                </Link>
+                <Link 
+                    href={gitHubUrl}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    underline="none"
+                >
+                    <Button size="small">GitHub</Button>
+                </Link>
+                </CardActions>
                 
-            />
-            <CardContent>
-                <Typography gutterBottom variant="h5" component="div">
-                    {firstName + " " + lastName}
-                </Typography>
-                <Typography variant="body2" sx={{ color: "text.secondary" }}>
-                   {description}
-                </Typography>
-            </CardContent>
-            <CardActions>
-                <Button size="small">Share</Button>
-                <Button size="small">Learn More</Button>
-            </CardActions>
         </Card>
     );
 }
