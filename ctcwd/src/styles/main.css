@@ -21,24 +21,28 @@ body {
 }
 
 .block_one {
+    scroll-behavior: smooth;
     height: 100vh;
     background-color: black;
     scroll-snap-align: center;
 }
 
 .block_two {
+    scroll-behavior: smooth;
     height: 100vh;
     background-color: black;
     scroll-snap-align: center;
 }
 
 .block_three {
+    scroll-behavior: smooth;
     height: 100vh;
     background-color: black;
     scroll-snap-align: center;
 }
 
 .footer_block {
+    scroll-behavior: smooth;
     height: 100vh;
     background-color: black;
     scroll-snap-align: center;
