@@ -54,7 +54,7 @@
   justify-content: right;
   padding-top: 2%;
   padding-right: 10%;
-  
+
 }
 
 .bubble_logo {
@@ -67,8 +67,11 @@
   margin: auto;
   width: 6%;
   padding: 10px;
+  flex-direction: column;
 }
-
+.bubble_logo p {
+  margin: 0;
+}
 .arrow_down {
   font-size: 35px;
   font-stretch: expanded;

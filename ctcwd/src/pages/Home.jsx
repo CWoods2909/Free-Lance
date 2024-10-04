@@ -2,12 +2,13 @@ import * as React from 'react';
 import Button from '@mui/material/Button';
 import '../styles/Home.css';
 import SendOutlinedIcon from '@mui/icons-material/SendOutlined';
+import Navbar from '../components/Navbar'
 
 export default function Home() {
     return (
       <>
+      <Navbar />
       <div id='main-home'>
-
         <div id="left-column-components">
           <div id="company-name">
             <h1>Coast to Coast<br></br> web design</h1>
@@ -30,6 +31,7 @@ export default function Home() {
         </div>
       </div>
       <div className="bubble_logo">
+        <p>Scroll down</p>
         <h1 className="arrow_down expand_menu">
             <i className="fa-solid fa-angles-down"></i>
         </h1>
