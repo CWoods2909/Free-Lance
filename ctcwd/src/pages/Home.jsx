@@ -11,7 +11,7 @@ export default function Home() {
       <div id='main-home'>
         <div id="left-column-components">
           <div id="company-name">
-            <h1>Coast to Coast<br></br> web design</h1>
+            <h1>Coast to Coast<br></br> Web Design</h1>
           </div>
 
           <div id="button-container">
