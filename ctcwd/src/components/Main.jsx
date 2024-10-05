@@ -7,10 +7,11 @@ import Contact from "../pages/Contact";
 
 
 export default function Main() {
+
     return (
         <div className="main_container">
             <div id="home" className="block_one">
-                <Home/>
+                <Home />
             </div>
             <div id="portfolio" className="block_three">
                 <Portfolio />

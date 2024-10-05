@@ -9,9 +9,13 @@ export default function Navbar() {
   return (
     <>
     <div id='dashboard' style={{"display":"flex", "justifyContent": "end"}}>
-      <Button
-        id="basic-button"
-        ><a className='home_button' href="#home" style={{"color": "white"}}><CottageIcon/></a>
+      <Button variant="text" id="basic-button"
+        onClick={() => {
+          const element = document.querySelector("#home");
+          element.scrollIntoView({
+            behavior: "smooth"
+          })}}>
+          <CottageIcon className='home_button' href="#home" style={{"color": "white"}}/>
       </Button>
     </div>
       <Outlet />
