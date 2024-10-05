@@ -2,12 +2,10 @@ import * as React from 'react';
 import Button from '@mui/material/Button';
 import '../styles/Home.css';
 import SendOutlinedIcon from '@mui/icons-material/SendOutlined';
-import Navbar from '../components/Navbar'
 
 export default function Home() {
     return (
       <>
-      <Navbar />
       <div id='main-home'>
         <div id="left-column-components">
           <div id="company-name">
