@@ -7,14 +7,19 @@
 }
 
 #about-us-header{
-    height: 10vh;
+    height: 18vh;
     font-size: 2.3em;
     display: flex;
-    margin-left: 4%;
+    margin-left: 5%;
     align-items: center;
-    margin-bottom: 5%;
+    /* margin-bottom: 3%; */
 }
 
 .about-us-card{
     width: auto;
+    height: auto;
+}
+
+.about-us-card p{
+    color: black;
 }

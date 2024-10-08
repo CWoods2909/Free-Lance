@@ -1,9 +1,8 @@
 import * as React from 'react';
 import Button from '@mui/material/Button';
 import '../styles/Home.css';
-import SendOutlinedIcon from '@mui/icons-material/SendOutlined';
 import { Link } from 'react-router-dom';
-// import { useRef } from 'react';
+
 
 export default function Home({homeSection, aboutusSection, portfolioSection}) {
 
@@ -39,7 +38,7 @@ export default function Home({homeSection, aboutusSection, portfolioSection}) {
               element.scrollIntoView({
                 behavior: "smooth"
               })}}>
-              <SendOutlinedIcon />
+              <i class="fa-regular fa-paper-plane" style={{fontSize:"1.5em"}}></i>
               <div id='work-text'>
                 Work with us
               </div>
@@ -50,17 +49,6 @@ export default function Home({homeSection, aboutusSection, portfolioSection}) {
           <div id="group-image">
             <img src="/images/new-image-2.png" alt="group working" style={{height: "100%", width:"100%" }}/>
           </div>
-          {/* <Button variant="text" 
-            onClick={() => {
-              const element = document.querySelector("#contact");
-              element.scrollIntoView({
-                behavior: "smooth"
-              })}}>
-              <SendOutlinedIcon />
-              <div id='work-text'>
-                Work with us
-              </div>
-          </Button> */}
         </div>
       </div>
       <div className="bubble_logo">

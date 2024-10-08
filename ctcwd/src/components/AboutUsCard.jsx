@@ -13,8 +13,9 @@ export default function AboutUsCard({person}) {
 
     return (
         <Card sx={{ 
-            maxWidth: 345 , 
-            maxHeight: 600,
+            maxWidth: 350 , 
+            minHeight: 700,
+            maxHeight: 720,
             borderRadius: "10% 10% 0 0 ",
             transition: 'all 0.3s ease-in-out',
             '&:hover': {
@@ -37,7 +38,7 @@ export default function AboutUsCard({person}) {
                     rel="noopener noreferrer"
                     underline="none"
                 >
-                    <Button size="small">LinkedIn</Button>
+                    <Button size="small"><i class="fa-brands fa-linkedin" style={{fontSize:"2em"}}></i></Button>
                 </Link>
                 <Link 
                     href={gitHubUrl}
@@ -45,7 +46,7 @@ export default function AboutUsCard({person}) {
                     rel="noopener noreferrer"
                     underline="none"
                 >
-                    <Button size="small">GitHub</Button>
+                    <Button size="small"><i class="fa-brands fa-github" style={{fontSize:"2em"}}></i></Button>
                 </Link>
                 </CardActions>
                 
