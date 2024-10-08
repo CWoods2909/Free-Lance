@@ -33,28 +33,41 @@ export default function Home({homeSection, aboutusSection, portfolioSection}) {
                 <Link>Portfolio</Link>
           </Button>
           </div>
+          <Button variant="text" id='work-text-button'
+            onClick={() => {
+              const element = document.querySelector("#contact");
+              element.scrollIntoView({
+                behavior: "smooth"
+              })}}>
+              <SendOutlinedIcon />
+              <div id='work-text'>
+                Work with us
+              </div>
+          </Button>
         </div>
 
         <div id="right-column-components">
           <div id="group-image">
-            <img src="/images/groupPhoto.png" alt="group working" style={{height: "100%", width:"100%", paddingRight: "5%" }}/>
+            <img src="/images/new-image-2.png" alt="group working" style={{height: "100%", width:"100%" }}/>
           </div>
-          <Button variant="text" 
+          {/* <Button variant="text" 
             onClick={() => {
               const element = document.querySelector("#contact");
               element.scrollIntoView({
-              behavior: "smooth"
-            })}}>
-                <SendOutlinedIcon />
+                behavior: "smooth"
+              })}}>
+              <SendOutlinedIcon />
+              <div id='work-text'>
                 Work with us
-          </Button>
+              </div>
+          </Button> */}
         </div>
       </div>
       <div className="bubble_logo">
-        <p>Scroll down</p>
-        <h1 className="arrow_down expand_menu">
+        <div className="arrow_down expand_menu">
+        <p>Scroll</p>
             <i className="fa-solid fa-angles-down"></i>
-        </h1>
+        </div>
       </div>
       </>
     )

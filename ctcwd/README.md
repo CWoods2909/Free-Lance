@@ -21,3 +21,7 @@ Testing - Jest - [Jest Docs](https://jestjs.io/)
 Yooboo and I fleshed out some ideas and worked on the project page.
 
 ### 9/24/2024
+
+### 10/08/2024
+Initial project is built around screen dimensions 1440 x 900.
+We will build media queries for phone, tablet, and full size screens.

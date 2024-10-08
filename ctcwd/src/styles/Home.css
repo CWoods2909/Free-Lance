@@ -1,16 +1,15 @@
 #main-home {
   display: flex;
-  justify-content: space-around;
   align-items: center;
+  justify-content: center;
   height: 100vh;
 }
 
 #left-column-components {
-  width: 33%;
-  padding-left: 5%;
+  width: 38%;
 }
 #company-name {
-  font-size: 3em;
+  font-size: 2em;
 }
 #button-container {
   border-radius: 30px;
@@ -20,6 +19,11 @@
   justify-content: space-around;
   width: 75%;
 }
+
+#group-image > img{
+  border-radius: 58% 45% 45% 33%;
+}
+
 #button-container a
  {
   font-size: large;
@@ -27,27 +31,21 @@
   text-decoration: none;
  }
 
- #button-container a:hover{
-  color: rgb(110, 202, 238);
- }
-
- #work-with-us > a{
-  font-size: large;
-  color: white;
-  text-decoration: none;
-  width: 40%;
-  display: flex;
-  justify-content: space-around;
- }
-
- #work-with-us > a:hover{
-  color: rgb(110, 202, 238);
- }
 
  #right-column-components {
-  width: 40%;
+  width: 38%;
   display: flex;
   flex-direction: column;
+}
+
+#work-text{
+  padding-left: 1vw;
+  color: whitesmoke;
+  font-size: x-large;
+}
+
+#work-text-button{
+margin-top: 10%;
 }
 
 #right-column-components > button {
@@ -58,28 +56,25 @@
 }
 
 .bubble_logo {
-  left: 47vw;
-  top: 85vh;
+  top: 88vh;
   position: absolute;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  margin: auto;
-  width: 6%;
-  padding: 10px;
-  flex-direction: column;
+  width: 100vw;
 }
 .bubble_logo p {
   margin: 0;
 }
 .arrow_down {
-  font-size: 35px;
-  font-stretch: expanded;
-  color: white;
-  opacity: 22%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  font-size: 25px;
+  color: rgba(255, 255, 255, 0.504);
   animation: float 2.5s ease-in-out infinite;
 }
 
+.arrow_down > p{
+  letter-spacing: 2px;
+}
 .fa-angles-down {
   text-shadow: 2px 2px 4px #000000c2;
 }
