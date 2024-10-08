@@ -30,7 +30,9 @@
   color: white;
   text-decoration: none;
  }
-
+ #button-container a:hover{
+  color: lightblue;
+ }
 
  #right-column-components {
   width: 38%;
@@ -42,6 +44,10 @@
   padding-left: 1vw;
   color: whitesmoke;
   font-size: x-large;
+}
+
+#work-text:hover{
+  color: lightblue;
 }
 
 #work-text-button{
