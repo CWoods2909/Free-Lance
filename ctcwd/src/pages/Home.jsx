@@ -4,7 +4,7 @@ import '../styles/Home.css';
 import { Link } from 'react-router-dom';
 
 
-export default function Home({homeSection, aboutusSection, portfolioSection}) {
+export default function Home() {
 
     return (
       <>

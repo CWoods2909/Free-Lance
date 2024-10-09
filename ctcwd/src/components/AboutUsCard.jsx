@@ -13,9 +13,9 @@ export default function AboutUsCard({person}) {
 
     return (
         <Card sx={{ 
-            maxWidth: 350 , 
-            minHeight: 700,
-            maxHeight: 720,
+            maxWidth: 400 , 
+            minHeight: 650,
+            maxHeight: 700,
             borderRadius: "10% 10% 0 0 ",
             transition: 'all 0.3s ease-in-out',
             '&:hover': {
