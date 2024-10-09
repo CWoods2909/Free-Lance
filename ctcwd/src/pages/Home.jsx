@@ -40,7 +40,7 @@ export default function Home() {
               })}}>
               <i class="fa-regular fa-paper-plane" style={{fontSize:"1.5em"}}></i>
               <div id='work-text'>
-                Work with us
+                Get in touch
               </div>
           </Button>
         </div>

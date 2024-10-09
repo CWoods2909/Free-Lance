@@ -9,7 +9,7 @@
   width: 38%;
 }
 #company-name {
-  font-size: 2em;
+  font-size: 2.2em;
 }
 #button-container {
   border-radius: 30px;
@@ -29,6 +29,7 @@
   font-size: large;
   color: white;
   text-decoration: none;
+  font-family: "Old Standard TT";
  }
  #button-container a:hover{
   color: lightblue;
@@ -43,7 +44,8 @@
 #work-text{
   padding-left: 1vw;
   color: whitesmoke;
-  font-size: x-large;
+  font-size: large;
+  font-family: "Old Standard TT";
 }
 
 #work-text:hover{
