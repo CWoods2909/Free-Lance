@@ -1,16 +1,15 @@
 
 
-export default function PortfolioCard () {
+export default function PortfolioCard ({site}) {
+    const {siteImg, siteTitle, siteDescription} = site
     return (
-        <div className="cards_container">
-            <div className="image_container">
-                <img src="" className="image" alt="blank"/>
+        <>
+            <img src={siteImg} alt="" style={{width: "80%", height: "50%"}}/>
+            <div id="portfolio-card-content-inner">
+                <p id="content-title">{siteTitle}</p>
+                <hr></hr>
+                <p id="content-description">{siteDescription}</p>
             </div>
-
-            <div>
-                {/* We need an arrow icon here */}
-                <p>Project Name</p>
-            </div>
-        </div>
+        </>
     )
 }

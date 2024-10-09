@@ -1,10 +1,50 @@
-.portfolio_header {
-    font-size: 30pt;
-    letter-spacing: 0.5em;
-    margin-left: 8vw;
+#portfolio_header {
+    font-size: 5em;
+    letter-spacing: 3pt;
+    margin-left: 5vw;
+    padding-top: 4vh;
+    font-weight: 500;
 }
 
-.fa-thin {
-    size: 4em;
-    margin-left: 5vw;
+#portfolio_header > p{
+    margin: 0;
+}
+
+#portfolio-container{
+    height: 70vh;
+    width: 100vw;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 2em;
+}
+
+#page_container{
+    height: 100vh;
+}
+
+#portfolio-card{
+    width: 30vw;
+    height: 90%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: whitesmoke;
+    color: black;
+    border-radius: 8%;
+}
+
+#portfolio-card > img{
+    border-radius: 8%;
+}
+
+#content-title{
+    text-align: center;
+    font-size: large;
+    font-weight: 800;
+    margin-bottom: 0;
+}
+
+#content-description{
+    padding: 2%;
 }
