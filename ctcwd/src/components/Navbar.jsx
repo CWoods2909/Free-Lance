@@ -12,7 +12,8 @@ export default function Navbar() {
       "justifyContent": "end", 
       position:"absolute", 
       zIndex:"100",
-      right:0,
+      right:"2%",
+      marginTop:"1.5%"
       }}>
       <Button variant="text" id="basic-button"
         onClick={() => {
@@ -21,7 +22,8 @@ export default function Navbar() {
             behavior: "smooth"
           })}}>
           {/* <CottageIcon className='home_button' href="#home" style={{"color": "white"}}/> */}
-          <img src="/images/logo3.png" alt="company logo" id='logo' style={{height: "10em", width: "10em"}}/>
+          <img src="/images/logo4-trimmed.png" alt="company logo" id='logo' 
+          style={{height: "6em", width: "6em"}}/>
       </Button>
     </div>
       <Outlet />

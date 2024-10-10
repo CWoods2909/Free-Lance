@@ -8,7 +8,7 @@ export default function AboutUs() {
       <>
         <Navbar />
         <div id="about-us-header">
-          <h2>Meet the Team</h2>
+          <p>Meet the Team</p>
         </div>
         <div id="aboutUsContainer">
           {user.map(person => {
