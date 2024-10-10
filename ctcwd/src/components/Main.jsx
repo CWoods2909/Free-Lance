@@ -4,6 +4,7 @@ import Home from "../pages/Home";
 import Portfolio from "../pages/Portfolio";
 import AboutUs from "../pages/AboutUs";
 import Contact from "../pages/Contact";
+import Faq from "../pages/Faq";
 
 
 export default function Main() {
@@ -18,6 +19,9 @@ export default function Main() {
             </div>
             <div id="aboutus" className="block_two">
                 <AboutUs />
+            </div>
+            <div id="faq" className="block_four">
+                <Faq />
             </div>
             <div id="contact" className="footer_block">
                 <Contact />

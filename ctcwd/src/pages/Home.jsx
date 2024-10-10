@@ -15,7 +15,7 @@ export default function Home() {
           </div>
 
           <div id="button-container">
-          <Button variant="text" 
+          <Button variant="text" id='meet-the-team-button'
             onClick={() => {
               const element = document.querySelector("#aboutus");
               element.scrollIntoView({
@@ -23,7 +23,7 @@ export default function Home() {
             })}}>
                 <Link href='/'>Meet the team</Link>
           </Button>
-          <Button variant="text" 
+          <Button variant="text" id='portfolio-button'
             onClick={() => {
               const element = document.querySelector("#portfolio");
               element.scrollIntoView({
@@ -31,8 +31,7 @@ export default function Home() {
             })}}>
                 <Link>Portfolio</Link>
           </Button>
-          </div>
-          <Button variant="text" id='work-text-button'
+          <Button variant="text" id='get-in-touch-button'
             onClick={() => {
               const element = document.querySelector("#contact");
               element.scrollIntoView({
@@ -43,6 +42,17 @@ export default function Home() {
                 Get in touch
               </div>
           </Button>
+          <Button variant="text" id='faq-button'
+            onClick={() => {
+              const element = document.querySelector("#contact");
+              element.scrollIntoView({
+                behavior: "smooth"
+              })}}>
+              <div id='work-text'>
+                FAQ
+              </div>
+          </Button>
+          </div>
         </div>
 
         <div id="right-column-components">

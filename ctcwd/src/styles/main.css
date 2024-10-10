@@ -40,6 +40,12 @@ body {
     background-color: black;
     scroll-snap-align: center;
 }
+.block_four {
+    scroll-behavior: smooth;
+    height: 100vh;
+    background-color: black;
+    scroll-snap-align: center;
+}
 
 .footer_block {
     scroll-behavior: smooth;

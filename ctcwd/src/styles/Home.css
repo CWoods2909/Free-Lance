@@ -12,11 +12,11 @@
   font-size: 2.2em;
 }
 #button-container {
-  border-radius: 30px;
-  border: 1px solid white;
   padding: 2%;
-  display: flex;
-  justify-content: space-around;
+  display: grid;
+  gap: 1em;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
   width: 75%;
 }
 
@@ -32,7 +32,7 @@
   font-family: "Old Standard TT";
  }
  #button-container a:hover{
-  color: lightblue;
+  color: rgb(25, 146, 186);
  }
 
  #right-column-components {
@@ -49,11 +49,47 @@
 }
 
 #work-text:hover{
-  color: lightblue;
+  color: rgb(25, 146, 186);
 }
 
-#work-text-button{
-margin-top: 10%;
+#faq-button{
+  border-right: 2px solid whitesmoke;
+  border-bottom: 2px solid whitesmoke;
+  transition: all 0.3s ease-in-out;
+}
+
+#faq-button:hover{
+  transform: translateX(5px);
+}
+
+#meet-the-team-button{
+  border-right: 2px solid whitesmoke;
+  border-bottom: 2px solid whitesmoke;
+  transition: all 0.3s ease-in-out;
+}
+
+#meet-the-team-button:hover{
+  transform: translateX(5px);
+}
+
+#portfolio-button{
+  border-right: 2px solid whitesmoke;
+  border-bottom: 2px solid whitesmoke;
+  transition: all 0.3s ease-in-out;
+}
+
+#portfolio-button:hover{
+  transform: translateX(5px);
+}
+
+#get-in-touch-button{
+  border-right: 2px solid whitesmoke;
+  border-bottom: 2px solid whitesmoke;
+  transition: all 0.3s ease-in-out;
+}
+
+#get-in-touch-button:hover{
+  transform: translateX(5px);
 }
 
 #right-column-components > button {
