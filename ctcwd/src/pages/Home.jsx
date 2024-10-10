@@ -44,7 +44,7 @@ export default function Home() {
           </Button>
           <Button variant="text" id='faq-button'
             onClick={() => {
-              const element = document.querySelector("#contact");
+              const element = document.querySelector("#faq");
               element.scrollIntoView({
                 behavior: "smooth"
               })}}>
