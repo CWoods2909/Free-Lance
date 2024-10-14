@@ -5,6 +5,15 @@
   height: 100vh;
 }
 
+#company-h1{
+  margin: 0;
+}
+
+#home-line{
+  margin: 5% 0 5% 0;
+  width: 85%;
+}
+
 #left-column-components {
   width: 38%;
 }
@@ -31,10 +40,7 @@
   text-decoration: none;
   font-family: "Old Standard TT";
  }
- #button-container a:hover{
-  color: rgb(25, 146, 186);
- }
-
+ 
  #right-column-components {
   width: 38%;
   display: flex;
@@ -42,20 +48,17 @@
 }
 
 #work-text{
-  padding-left: 1vw;
   color: whitesmoke;
   font-size: large;
   font-family: "Old Standard TT";
-}
-
-#work-text:hover{
-  color: rgb(25, 146, 186);
+  
 }
 
 #faq-button{
-  border-right: 2px solid whitesmoke;
-  border-bottom: 2px solid whitesmoke;
+  border-right: 1px solid whitesmoke;
+  border-bottom: 1px solid whitesmoke;
   transition: all 0.3s ease-in-out;
+  background-color: rgb(25, 146, 186);
 }
 
 #faq-button:hover{
@@ -63,29 +66,30 @@
 }
 
 #meet-the-team-button{
-  border-right: 2px solid whitesmoke;
-  border-bottom: 2px solid whitesmoke;
+  border-right: 1px solid whitesmoke;
+  border-bottom: 1px solid whitesmoke;
   transition: all 0.3s ease-in-out;
-}
+  background-color: rgb(25, 146, 186);}
 
 #meet-the-team-button:hover{
   transform: translateX(5px);
 }
 
 #portfolio-button{
-  border-right: 2px solid whitesmoke;
-  border-bottom: 2px solid whitesmoke;
+  border-right: 1px solid whitesmoke;
+  border-bottom: 1px solid whitesmoke;
   transition: all 0.3s ease-in-out;
-}
+  background-color: rgb(25, 146, 186);}
 
 #portfolio-button:hover{
   transform: translateX(5px);
 }
 
 #get-in-touch-button{
-  border-right: 2px solid whitesmoke;
-  border-bottom: 2px solid whitesmoke;
+  border-right: 1px solid whitesmoke;
+  border-bottom: 1px solid whitesmoke;
   transition: all 0.3s ease-in-out;
+  background-color: rgb(25, 146, 186);
 }
 
 #get-in-touch-button:hover{

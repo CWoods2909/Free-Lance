@@ -1,0 +1,16 @@
+#FAQ-header{
+    height: 16vh;
+    display: flex;
+    align-items: center;
+}
+
+#FAQ-header > p{
+    font-size: 4em;
+    margin-left: 1em;
+}
+
+#FAQ-container{
+    height: 80vh;
+    margin-top: 5em;
+    margin-left: 3em;
+}

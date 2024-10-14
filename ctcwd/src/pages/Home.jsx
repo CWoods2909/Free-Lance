@@ -11,7 +11,8 @@ export default function Home() {
       <div id='main-home'>
         <div id="left-column-components">
           <div id="company-name">
-            <h1>Coast to Coast<br></br> Web Design</h1>
+            <h1 id='company-h1'>Coast to Coast<br></br> Web Design</h1>
+            <hr id='home-line'></hr>
           </div>
 
           <div id="button-container">
@@ -37,7 +38,7 @@ export default function Home() {
               element.scrollIntoView({
                 behavior: "smooth"
               })}}>
-              <i class="fa-regular fa-paper-plane" style={{fontSize:"1.5em"}}></i>
+              {/* <i class="fa-regular fa-paper-plane" style={{fontSize:"1.5em"}}></i> */}
               <div id='work-text'>
                 Get in touch
               </div>

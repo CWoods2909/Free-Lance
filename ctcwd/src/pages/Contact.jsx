@@ -10,7 +10,7 @@ export default function Contact() {
             <p>Project</p>
             <p>Inquiries</p>
           </div>
-          <hr></hr>
+          <hr id="contact-line"></hr>
           <div id="contact-container">
             <p id="contact-text">
               We would love to learn about your brand's goals and objectives to ensure
