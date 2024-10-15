@@ -7,11 +7,12 @@
 
 #company-h1{
   margin: 0;
+  font-weight: 100;
 }
 
 #home-line{
   margin: 5% 0 5% 0;
-  width: 85%;
+  width: 80%;
 }
 
 #left-column-components {
@@ -38,7 +39,7 @@
   font-size: large;
   color: white;
   text-decoration: none;
-  font-family: "Old Standard TT";
+  /* font-family: "Old Standard TT"; */
  }
  
  #right-column-components {
@@ -50,7 +51,7 @@
 #work-text{
   color: whitesmoke;
   font-size: large;
-  font-family: "Old Standard TT";
+  /* font-family: "Old Standard TT"; */
   
 }
 
@@ -72,7 +73,7 @@
   background-color: rgb(25, 146, 186);}
 
 #meet-the-team-button:hover{
-  transform: translateX(5px);
+  transform: translateX(-5px);
 }
 
 #portfolio-button{
@@ -93,7 +94,7 @@
 }
 
 #get-in-touch-button:hover{
-  transform: translateX(5px);
+  transform: translateX(-5px);
 }
 
 #right-column-components > button {
@@ -109,21 +110,24 @@
 }
 .bubble_logo p {
   margin: 0;
+  text-transform: uppercase;
 }
 .arrow_down {
   display: flex;
   align-items: center;
   flex-direction: column;
-  font-size: 25px;
+  font-size: 18px;
   color: rgba(255, 255, 255, 0.504);
   animation: float 2.5s ease-in-out infinite;
 }
 
 .arrow_down > p{
   letter-spacing: 2px;
+  padding-bottom: .5%;
 }
 .fa-angles-down {
   text-shadow: 2px 2px 4px #000000c2;
+  transform: scale(1.5);
 }
 
 @keyframes float {
