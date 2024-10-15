@@ -38,7 +38,6 @@ export default function Home() {
               element.scrollIntoView({
                 behavior: "smooth"
               })}}>
-              {/* <i class="fa-regular fa-paper-plane" style={{fontSize:"1.5em"}}></i> */}
               <div id='work-text'>
                 Get in touch
               </div>

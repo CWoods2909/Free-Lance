@@ -41,7 +41,7 @@
   text-decoration: none;
   /* font-family: "Old Standard TT"; */
  }
- 
+
  #right-column-components {
   width: 38%;
   display: flex;
@@ -52,7 +52,7 @@
   color: whitesmoke;
   font-size: large;
   /* font-family: "Old Standard TT"; */
-  
+
 }
 
 #faq-button{
@@ -141,5 +141,42 @@
 
   100% {
       transform: translatey(0px);
+  }
+}
+/*Phone media query*/
+@media screen and (max-width: 600px) {
+  #main-home {
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+  }
+  #company-name {
+    font-size: 1.5em;
+  }
+  .bubble_logo {
+    display: none;
+  }
+  #left-column-components {
+    width: 80%;
+    height: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+
+  }
+  #home-line {
+    width: 100%;
+  }
+  #company-h1 {
+    text-align: center;
+  }
+  #button-container {
+    display: flex;
+    flex-direction: column;
+  }
+  #right-column-components {
+    width: 70%;
+    height: 40%;
   }
 }

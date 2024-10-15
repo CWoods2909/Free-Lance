@@ -12,8 +12,8 @@ export default function AboutUsCard({person}) {
     const {firstName, lastName, image, description, linkedinUrl, gitHubUrl} = person;
 
     return (
-        <Card sx={{ 
-            maxWidth: 400 , 
+        <Card sx={{
+            maxWidth: 400 ,
             minHeight: 650,
             maxHeight: 700,
             borderRadius: "10% 10% 0 0 ",
@@ -32,24 +32,24 @@ export default function AboutUsCard({person}) {
                     </Typography>
                 </CardContent>
                 <CardActions>
-                    <Link 
+                    <Link
                     href={linkedinUrl}
                     target="_blank"
                     rel="noopener noreferrer"
                     underline="none"
                 >
-                    <Button size="small"><i class="fa-brands fa-linkedin" style={{fontSize:"2em"}}></i></Button>
+                    <Button size="small"><i className="fa-brands fa-linkedin" style={{fontSize:"2em"}}></i></Button>
                 </Link>
-                <Link 
+                <Link
                     href={gitHubUrl}
                     target="_blank"
                     rel="noopener noreferrer"
                     underline="none"
                 >
-                    <Button size="small"><i class="fa-brands fa-github" style={{fontSize:"2em"}}></i></Button>
+                    <Button size="small"><i className="fa-brands fa-github" style={{fontSize:"2em"}}></i></Button>
                 </Link>
                 </CardActions>
-                
+
         </Card>
     );
 }
