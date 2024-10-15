@@ -48,3 +48,28 @@
 #content-description{
     padding: 2%;
 }
+
+/*Phone media query*/
+@media screen and (max-width: 600px) {
+    #portfolio-container {
+        overflow: hidden;
+        align-items: center;
+        transition: transform .3s ease-in-out;
+        scroll-snap-type: x mandatory;
+        overflow-x: auto;
+        scroll-behavior: smooth;
+    }
+
+    #portfolio-card {
+        flex: 0 0 75%;
+        height: 55%;
+        padding: 20px;
+        margin: 10px;
+        box-shadow: 0 2px 5px whitesmoke;
+        scroll-snap-align: start;
+    }
+    #portfolio-card > img{
+        width: 100% !important;
+    }
+}
+
