@@ -42,5 +42,9 @@
   },
   "devDependencies": {
     "jest": "^27.5.1"
-  }
+  },
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/coasttocoast/my-other-repo.git"
+    }
 }
