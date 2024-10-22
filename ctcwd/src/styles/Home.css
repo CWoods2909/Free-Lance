@@ -39,7 +39,6 @@
   font-size: large;
   color: white;
   text-decoration: none;
-  /* font-family: "Old Standard TT"; */
  }
 
  #right-column-components {
@@ -51,13 +50,11 @@
 #work-text{
   color: whitesmoke;
   font-size: large;
-  /* font-family: "Old Standard TT"; */
-
 }
 
 #faq-button{
-  border-right: 1px solid whitesmoke;
-  border-bottom: 1px solid whitesmoke;
+  border-right: 3px solid rgb(245, 245, 245);
+  border-bottom: 3px solid rgb(255, 255, 255);
   transition: all 0.3s ease-in-out;
   background-color: rgb(25, 146, 186);
 }
@@ -67,8 +64,8 @@
 }
 
 #meet-the-team-button{
-  border-right: 1px solid whitesmoke;
-  border-bottom: 1px solid whitesmoke;
+  border-right: 3px solid whitesmoke;
+  border-bottom: 3px solid whitesmoke;
   transition: all 0.3s ease-in-out;
   background-color: rgb(25, 146, 186);}
 
@@ -77,8 +74,8 @@
 }
 
 #portfolio-button{
-  border-right: 1px solid whitesmoke;
-  border-bottom: 1px solid whitesmoke;
+  border-right: 3px solid whitesmoke;
+  border-bottom: 3px solid whitesmoke;
   transition: all 0.3s ease-in-out;
   background-color: rgb(25, 146, 186);}
 
@@ -87,8 +84,8 @@
 }
 
 #get-in-touch-button{
-  border-right: 1px solid whitesmoke;
-  border-bottom: 1px solid whitesmoke;
+  border-right: 3px solid whitesmoke;
+  border-bottom: 3px solid whitesmoke;
   transition: all 0.3s ease-in-out;
   background-color: rgb(25, 146, 186);
 }
