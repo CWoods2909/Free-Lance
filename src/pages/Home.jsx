@@ -13,12 +13,12 @@ export default function Home() {
       {/* <div id='main-home'> */}
         <Container maxWidth="xl" sx={{
         display: 'flex',
-        justifyContent: 'center',  // Vertically center
-        alignItems: 'center', // Add this for vertical centering
-        minHeight: '90vh',
+        justifyContent: 'center',  
+        alignItems: 'center', 
+        minHeight: '80vh',
         minWidth: '80vw',
       }}>
-        <Grid container spacing={2} alignItems='center'>
+        <Grid container spacing={4} alignItems='center' justifyContent="center">
           <Grid size={{ xs: 12, sm: 12, md: 6, lg: 6 }} id='left-components'>
             <div id="company-name">
               <h1 id='company-h1'>Coast to Coast <br></br> Web Design</h1>
@@ -65,7 +65,7 @@ export default function Home() {
             </div>
           </Grid>
 
-          <Grid size={{ xs: 12, sm: 12, md: 6, lg: 6 }}>
+          <Grid size={{ xs: 9, sm: 9, md: 6, lg: 6 }}>
               <div id="group-image">
                 <img src="/images/new-image-2.png" alt="group working" style={{height: "100%", width:"100%" }}/>
               </div>
