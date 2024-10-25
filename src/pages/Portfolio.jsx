@@ -13,7 +13,7 @@ export default function Portfolio() {
           </div>
           <div id='portfolio-container'>
           {portfolio.map(site => {
-            return <div id="portfolio-card">
+            return <div id="portfolio-card" key={site.siteTitle}>
               <PortfolioCard site={site}/>
               </div>
           })}

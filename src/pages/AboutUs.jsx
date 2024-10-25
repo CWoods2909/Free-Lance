@@ -12,7 +12,7 @@ export default function AboutUs() {
         </div>
         <div id="aboutUsContainer">
           {user.map(person => {
-            return <div className="about-us-card">
+            return <div className="about-us-card" key={person.firstName}>
               <AboutUsCard person={person}/>
               </div>
           })}

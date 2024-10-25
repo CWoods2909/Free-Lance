@@ -1,26 +1,25 @@
-/* #main-home {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  height: 100vh;
-} */
 
 #company-h1{
   margin: 0;
   font-weight: 100;
+  text-align: center;
 }
 
 #home-line{
   margin: 5% 0 5% 0;
-  width: 80%;
+  width: 100%;
 }
 
-/* #left-column-components {
-  width: 38%;
-} */
 #company-name {
   font-size: 2.2em;
 }
+
+#left-components{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
 #button-container {
   padding: 2%;
   display: grid;
@@ -40,12 +39,6 @@
   color: white;
   text-decoration: none;
  }
-
- /* #right-column-components {
-  width: 38%;
-  display: flex;
-  flex-direction: column;
-} */
 
 #work-text{
   color: whitesmoke;

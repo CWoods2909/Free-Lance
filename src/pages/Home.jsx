@@ -15,14 +15,13 @@ export default function Home() {
         display: 'flex',
         justifyContent: 'center',  // Vertically center
         alignItems: 'center', // Add this for vertical centering
-        minHeight: '100vh',        // Take full viewport height
+        minHeight: '90vh',
+        minWidth: '80vw',
       }}>
-        <Grid container spacing={2} alignItems='center' // Add this for vertical centering
-        >
-          <Grid size={{ xs: 12, sm: 12, md: 6, lg: 6 }}>
-          {/* <div id="left-column-components"> */}
+        <Grid container spacing={2} alignItems='center'>
+          <Grid size={{ xs: 12, sm: 12, md: 6, lg: 6 }} id='left-components'>
             <div id="company-name">
-              <h1 id='company-h1'>Coast to Coast<br></br> Web Design</h1>
+              <h1 id='company-h1'>Coast to Coast <br></br> Web Design</h1>
               <hr id='home-line'></hr>
             </div>
 
@@ -64,18 +63,16 @@ export default function Home() {
                 </div>
             </Button>
             </div>
-          {/* </div> */}
           </Grid>
+
           <Grid size={{ xs: 12, sm: 12, md: 6, lg: 6 }}>
-            {/* <div id="right-column-components"> */}
               <div id="group-image">
                 <img src="/images/new-image-2.png" alt="group working" style={{height: "100%", width:"100%" }}/>
               </div>
-            {/* </div> */}
           </Grid>
         </Grid>
-      {/* </div> */}
       </Container>
+
       <div className="bubble_logo">
         <div className="arrow_down expand_menu">
         <p>Scroll</p>
