@@ -14,20 +14,20 @@ export default function AboutUsCard({person}) {
     return (
         <Card sx={{
             maxWidth: 400 ,
-            minHeight: 650,
             maxHeight: 700,
             borderRadius: "10% 10% 0 0 ",
             transition: 'all 0.3s ease-in-out',
             '&:hover': {
                 transform: 'translateY(-5px)',
-                boxShadow: '0 4px 20px rgba(0,0,0,0.1)', }}}>
+                boxShadow: '0 4px 20px rgba(0,0,0,0.1)', }}}
+            id="about-us-card">
             <CardMedia
                 sx={{ height: 300, width: "100%", objectFit: "stretch" }}
                 image={image} /><CardContent>
                     <Typography gutterBottom variant="h5" component="div">
                         {firstName + " " + lastName}
                     </Typography>
-                    <Typography variant="body2" sx={{ color: "text.secondary" }}>
+                    <Typography id="about-us-description" variant="body2" sx={{ color: "text.secondary" }}>
                         {description}
                     </Typography>
                 </CardContent>

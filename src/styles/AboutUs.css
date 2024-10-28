@@ -1,10 +1,10 @@
-#aboutUsContainer{
+/* #aboutUsContainer{
     height: auto;
     width: auto;
     display: flex;
     align-items: center;
     justify-content: space-around;
-}
+} */
 
 #about-us-header{
     height: 18vh;
@@ -25,4 +25,15 @@
 
 .about-us-card p{
     color: black;
+}
+
+/*Phone media query*/
+
+@media screen and (max-width: 1070px) {
+    #about-us-description{
+        display: none;
+    }
+    #about-us-card{
+        height: 30px;
+    }
 }
