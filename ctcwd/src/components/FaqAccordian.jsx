@@ -12,7 +12,7 @@ const Accordion = styled((props) => (
 }));
 
 const AccordionSummary = styled((props) => (
-  <MuiAccordionSummary
+  <MuiAccordionSummary 
     expandIcon={<ArrowForwardIosSharpIcon sx={{ fontSize: '0.9rem', color: 'whitesmoke' }} />}
     {...props}
   />
@@ -34,7 +34,7 @@ const AccordionDetails = styled(MuiAccordionDetails)(({ theme }) => ({
 }));
 
 export default function FaqAccordian() {
-  const [expanded, setExpanded] = React.useState('panel1');
+  const [expanded, setExpanded] = React.useState('');
 
   const handleChange = (panel) => (event, newExpanded) => {
     setExpanded(newExpanded ? panel : false);
@@ -117,6 +117,16 @@ export default function FaqAccordian() {
           <Typography>
             You can reach the team at our company email fake@fake.com.  We will let you know when we've received it, and 
             when it has been completed. 
+          </Typography>
+        </AccordionDetails>
+      </Accordion>
+      <Accordion expanded={expanded === 'panel8'} onChange={handleChange('panel8')} className="accordian">
+        <AccordionSummary aria-controls="panel8d-content" id="panel8d-header">
+          <Typography>Will my website be mobile friendly?</Typography>
+        </AccordionSummary>
+        <AccordionDetails>
+          <Typography className='testing'>
+            We offer mobile compatibility for your website as this would be included when you sign up for our services.
           </Typography>
         </AccordionDetails>
       </Accordion>

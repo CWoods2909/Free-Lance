@@ -9,12 +9,23 @@
     margin-left: 1em;
 }
 
-#FAQ-container{
+#FAQ-container {
+    width: 50%;
+    text-wrap: wrap;
     height: 80vh;
-    margin-top: 5em;
+    margin-top: 2.5em;
     margin-left: 3em;
 }
 
+#FAQ-container p {
+    color: white;
+    font-size: 1.25rem;
+}
+
+#FAQ-container div {
+    background-color: black;
+}
+
 #panel7d-header{
-    margin-top: 2%;
+    /* margin-bottom: 2%; */
 }
