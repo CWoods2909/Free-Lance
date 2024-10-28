@@ -10,7 +10,6 @@ export default function Home() {
 
     return (
       <>
-      {/* <div id='main-home'> */}
         <Container maxWidth="xl" sx={{
         display: 'flex',
         justifyContent: 'center',  
