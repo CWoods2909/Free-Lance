@@ -39,7 +39,18 @@
 
   #portfolio-card{
     height: 230px;
-    
+
+  }
+
+
+  #portfolio_header{
+    margin: 0;
+    padding: 0 0 2% 0;
+    text-align: center;
+  }
+
+  #dashboard{
+    display: none !important;
   }
 } 
 

@@ -1,6 +1,5 @@
 import * as React from 'react';
 import Button from '@mui/material/Button';
-// import CottageIcon from '@mui/icons-material/Cottage';
 import {Outlet} from "react-router-dom";
 import "../styles/Navbar.css";
 
@@ -21,7 +20,6 @@ export default function Navbar() {
           element.scrollIntoView({
             behavior: "smooth"
           })}}>
-          {/* <CottageIcon className='home_button' href="#home" style={{"color": "white"}}/> */}
           <img src="/images/logo4-trimmed.png" alt="company logo" id='logo' 
           style={{height: "6em", width: "6em"}}/>
       </Button>
