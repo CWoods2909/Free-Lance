@@ -32,14 +32,13 @@
 }
 
 /* Phone media query */
-@media screen and (max-width: 900px) { 
+@media screen and (max-width: 933px) { 
   #card-text{
     display: none;
   }
 
   #portfolio-card{
     height: 230px;
-
   }
 
 
