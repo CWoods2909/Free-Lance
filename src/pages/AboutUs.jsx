@@ -22,7 +22,7 @@ export default function AboutUs() {
           <Grid container spacing={6}>
               {user.map(person => {
                 return (
-                <Grid size={{ xs: 12, sm: 12, md: 4, lg: 4 }} key={person.firstName}>
+                <Grid size={{ xs: 12, sm: 12, md: 4, lg: 4 }} key={person.firstName} id="about-us">
                     <AboutUsCard person={person}/>
                 </Grid>)
               })}
