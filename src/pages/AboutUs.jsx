@@ -16,8 +16,6 @@ export default function AboutUs() {
         display: 'flex',
         justifyContent: 'center',
         alignItems: 'center',
-        // minHeight: '80vh',
-        // minWidth: '80vw',
       }}>
           <Grid container spacing={3}>
               {user.map(person => {
