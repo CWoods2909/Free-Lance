@@ -13,14 +13,9 @@ export default function AboutUsCard({ person }) {
 
     return (
         <Card sx={{
-<<<<<<< Updated upstream
-            maxWidth: 350 ,
-            maxHeight: 700,
-=======
             // maxWidth: 350 ,
             // maxHeight: 700,
             // borderRadius: "10% 10% 0 0 ",
->>>>>>> Stashed changes
             transition: 'all 0.3s ease-in-out',
             // overflow: "auto",
             '&:hover': {
