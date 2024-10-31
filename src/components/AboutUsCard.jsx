@@ -13,10 +13,11 @@ export default function AboutUsCard({person}) {
 
     return (
         <Card sx={{
-            maxWidth: 400 ,
+            maxWidth: 350 ,
             maxHeight: 700,
-            borderRadius: "10% 10% 0 0 ",
+            // borderRadius: "10% 10% 0 0 ",
             transition: 'all 0.3s ease-in-out',
+            overflow: "auto",
             '&:hover': {
                 transform: 'translateY(-5px)',
                 boxShadow: '0 4px 20px rgba(0,0,0,0.1)', }}}

@@ -16,10 +16,10 @@ export default function AboutUs() {
         display: 'flex',
         justifyContent: 'center',
         alignItems: 'center',
-        minHeight: '80vh',
-        minWidth: '80vw',
+        // minHeight: '80vh',
+        // minWidth: '80vw',
       }}>
-          <Grid container spacing={6}>
+          <Grid container spacing={3}>
               {user.map(person => {
                 return (
                 <Grid size={{ xs: 12, sm: 12, md: 4, lg: 4 }} key={person.firstName} id="about-us">
