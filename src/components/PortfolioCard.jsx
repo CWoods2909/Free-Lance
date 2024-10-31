@@ -15,7 +15,7 @@ export default function PortfolioCard({ site }) {
                     <CardMedia
                         id="card-img"
                         component="img"
-                        height="300"
+                        height="280"
                         image={siteImg}
                         alt="portfolio site"
                         
