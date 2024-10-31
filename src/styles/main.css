@@ -24,32 +24,32 @@ body {
     scroll-behavior: smooth;
     height: 100vh;
     background-color: black;
-    scroll-snap-align: center;
+    scroll-snap-align: start;
 }
 
 .block_two {
     scroll-behavior: smooth;
     height: 100vh;
     background-color: black;
-    scroll-snap-align: center;
+    scroll-snap-align: start;
 }
 
 .block_three {
     scroll-behavior: smooth;
     height: 100vh;
     background-color: black;
-    scroll-snap-align: center;
+    scroll-snap-align: start;
 }
 .block_four {
     scroll-behavior: smooth;
     height: 100vh;
     background-color: black;
-    scroll-snap-align: center;
+    scroll-snap-align: start;
 }
 
 .footer_block {
     scroll-behavior: smooth;
     height: 100vh;
     background-color: black;
-    scroll-snap-align: center;
+    scroll-snap-align: start;
 }
