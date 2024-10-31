@@ -12,7 +12,7 @@ export default function AboutUs() {
         <div id="about-us-header">
           <p>Meet the Team</p>
         </div>
-        <Container maxWidth="xl" sx={{
+        <Container id="container"  sx={{
         display: 'flex',
         justifyContent: 'center',
         alignItems: 'center',
