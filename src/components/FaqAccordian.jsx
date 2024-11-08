@@ -30,11 +30,10 @@ const AccordionSummary = styled((props) => (
 
 const AccordionDetails = styled(MuiAccordionDetails)(({ theme }) => ({
   padding: theme.spacing(3),
-//   borderTop: '1px solid rgba(0, 0, 0, .125)',
 }));
 
 export default function FaqAccordian() {
-  const [expanded, setExpanded] = React.useState('panel1');
+  const [expanded, setExpanded] = React.useState('');
 
   const handleChange = (panel) => (event, newExpanded) => {
     setExpanded(newExpanded ? panel : false);
@@ -46,7 +45,7 @@ export default function FaqAccordian() {
         <AccordionSummary aria-controls="panel1d-content" id="panel1d-header">
           <Typography>Why not just use a page builder or wordpress site?</Typography>
         </AccordionSummary>
-        <AccordionDetails>
+        <AccordionDetails id="details">
           <Typography>
           We hand write all the code that will go into your website.  This allows for custom designs, 
           zero bloat or wasted code, instant load times and is more secure.
@@ -57,7 +56,7 @@ export default function FaqAccordian() {
         <AccordionSummary aria-controls="panel2d-content" id="panel2d-header">
           <Typography>What kind of websites can you make?</Typography>
         </AccordionSummary>
-        <AccordionDetails>
+        <AccordionDetails id="details">
           <Typography>
             We can accommodate almost any website request. Features like storefronts, and secure log-in will take more time since
             we need additional testing to make sure your clients information is secure. 
@@ -68,7 +67,7 @@ export default function FaqAccordian() {
         <AccordionSummary aria-controls="panel3d-content" id="panel3d-header">
           <Typography>What is the pay structure for a website?</Typography>
         </AccordionSummary>
-        <AccordionDetails>
+        <AccordionDetails id="details">
           <Typography>
             We start with a 6 month contract at $150 a month which includes unlimited edits, 24/7 support, lifetime updates,
             and hosting.
@@ -79,7 +78,7 @@ export default function FaqAccordian() {
         <AccordionSummary aria-controls="panel4d-content" id="panel4d-header">
           <Typography>What happens after 6 months?</Typography>
         </AccordionSummary>
-        <AccordionDetails>
+        <AccordionDetails id="details">
           <Typography>
             After 6 months you can sign up for another 6 month contract and keep that $150 a month offer or switch to month
             to month pricing for $175. If you decide to cancel during the 6 month contract period then payment will be need to made in full.
@@ -91,7 +90,7 @@ export default function FaqAccordian() {
         <AccordionSummary aria-controls="panel5d-content" id="panel5d-header">
           <Typography>What if I want to add a new page to my site?</Typography>
         </AccordionSummary>
-        <AccordionDetails>
+        <AccordionDetails id="details">
           <Typography>
             Edits to already built pages come free of charge. New pages are a one time $125 fee per page. Pricing based on your
             subscription will not change.
@@ -102,7 +101,7 @@ export default function FaqAccordian() {
         <AccordionSummary aria-controls="panel6d-content" id="panel6d-header">
           <Typography>How long does a website take?</Typography>
         </AccordionSummary>
-        <AccordionDetails>
+        <AccordionDetails id="details">
           <Typography>
             We hate to say it but it all depends on what needs to be done. Generally, for static portfolio sites 
             or simple business sites we can have them built in 2-3 weeks.  
@@ -113,7 +112,7 @@ export default function FaqAccordian() {
         <AccordionSummary aria-controls="panel7d-content" id="panel7d-header">
           <Typography>How do I request edits?</Typography>
         </AccordionSummary>
-        <AccordionDetails>
+        <AccordionDetails id="details">
           <Typography>
             You can reach the team at our company email fake@fake.com.  We will let you know when we've received it, and 
             when it has been completed. 
