@@ -12,11 +12,7 @@ export default function AboutUs() {
         <div id="about-us-header">
           <p>Meet the Team</p>
         </div>
-        <Container id="container"  sx={{
-        display: 'flex',
-        justifyContent: 'center',
-        alignItems: 'center',
-      }}>
+        <Container id="container"  >
           <Grid container spacing={3}>
               {user.map(person => {
                 return (
